@@ -79,14 +79,6 @@ The frontend application will start at `http://localhost:5173` (or the port show
 2.  **Find Recommendation**: Click "Find suitable Mutual funds", fill out the questionnaire, and get personalized fund suggestions.
 3.  **Calculators**: Use the SIP, SWP, and Real Returns calculators from the navigation menu to plan your investments.
 
-## Contributing
-
-1.  Fork the repository.
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
-
 ## License
 
 This is just a project and not for any commercial use.  
