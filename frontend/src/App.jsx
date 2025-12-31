@@ -30,7 +30,8 @@ function App() {
         savings: formData.savings ? parseFloat(formData.savings) : 0,
       };
 
-      const response = await axios.post('http://localhost:8000/recommend', payload);
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+      const response = await axios.post(`${apiUrl}/recommend`, payload);
       setRecommendations(response.data.recommendations);
       setView('results');
     } catch (err) {
